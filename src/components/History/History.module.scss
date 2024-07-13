@@ -1,0 +1,58 @@
+// History.module.scss
+$primary-color: #007bff;
+$text-color: #333;
+$background-color: #f9f9f9;
+$qr-code-border-color: #ccc;
+$qr-code-background-color: #fff;
+$padding: 20px;
+$margin-bottom: 20px;
+
+.history-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: $background-color;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: $padding;
+    margin-bottom: $margin-bottom;
+}
+
+.section-title {
+    font-size: 24px;
+    color: $primary-color;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.qr-code-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.qr-code-item {
+    max-width: 800px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid $qr-code-border-color;
+    border-radius: 8px;
+    background-color: $qr-code-background-color;
+}
+
+.qr-code-value {
+    font-size: 18px;
+    color: $text-color;
+    margin-bottom: 10px;
+}
+
+.qr-code {
+    margin: 0 auto;
+}

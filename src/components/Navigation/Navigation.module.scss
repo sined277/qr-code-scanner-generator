@@ -1,0 +1,30 @@
+
+$primary-color: #007bff;
+$text-color: #fff;
+$background-color: #333;
+$hover-color: #0056b3;
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $background-color;
+    padding: 10px 0;
+    border-radius: 8px;
+}
+
+.nav-link {
+    color: $text-color;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: $hover-color;
+    }
+
+    &.active {
+        background-color: $hover-color;
+    }
+}
