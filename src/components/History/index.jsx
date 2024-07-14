@@ -21,6 +21,7 @@ const History = () => {
                     ))}
                 </div>
             </div>
+            
             <div className={styles.section}>
                 <h1 className={styles["section-title"]}>Scanned History</h1>
                 <div className={styles["qr-code-container"]}>
